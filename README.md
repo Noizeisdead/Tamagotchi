@@ -1,0 +1,2 @@
+# Tamagotchi
+C# Threading project 
