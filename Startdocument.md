@@ -11,7 +11,26 @@ De applicatie zal ontwikkeld worden met **.NET MAUI 8.0** (Davidbritch, 2023) in
 
 ## Lay-out
 
-![Scherm1](img/Scherm%201.png "Scherm 1")
+
+
+![Start scherm](img/Wireframes/StartScreen.png "Start scherm")
+Wanneer de applicatie opstart krijgt de gebruiker dit scherm te zien. Vanaf dit scherm kan de gebruiker kiezen uit 4 opties:
+
+- New: Het aanmaken van een nieuw spel, de gebruik zal worden doorgestuurd naar het aanmaak scherm.
+- Load: De gebruiker wordt door gestuurd naar het load scherm, hier kan een opgeslagen spel gekozen worden of een bestand worden ingeladen.
+- Options: De gebruiker wordt door gestuurd naar het options scherm. Hier kan het volume van de applicatie worden aangepast.
+- Exit: De applicatie wordt afgesloten.
+
+![Nieuw spel aanmaken](img/Wireframes/NewScreen.png "Nieuw spel scherm")
+Op dit scherm maakt de gebruiker een nieuw spel aan. Dat betekent dat de gebruiker een ei mag kiezen, door middel van de pijlen naast het ei kan de gebruiker alle eieren bekijken. Onder het ei staat het monster dat er in het ei zit. In de rechter kolom staat de persoonlijkheid, type en extra informatie over het monster. 
+In het tekst veld vult de gebruiker de naam van het monster in.
+
+![Laad spel](img/Wireframes/LoadScreen.png "Laad opgeslagen spel")
+Op dit scherm zijn alle opgeslagen spellen te zien in de linker kolom. In de rechter kolom is een input veld voor bestanden. Hier kan de gebruiker een bestand in slepen van een spel om te laden en te spelen.
+
+![Opties](img/Wireframes/Options.png "Opties")
+Op het opties scherm kan het volume van de muziek, knoppen en geluidseffecten aangepast worden.
+
 
 ## Klassendiagram
 
