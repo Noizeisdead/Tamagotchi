@@ -41,18 +41,20 @@ Als laatste zijn er **Won't-Haves**. Deze zoals de naam aangeeft, zullen niet wo
 | 6   | Tamagotchi kan in slaap vallen                          | Must Have   |
 | 7   | Tamagotchi kan worden schoon gemaakt                    | Must Have   |
 | 8   | Tamagotchi kan dood gaan als er niet voor wordt gezorgd | Must Have   |
-| 9   | Tamagotchi heeft een health bar                         | Must Have   |
-| 10  | Keuze uit meerdere Tamagotchi's                         | Must Have   |
-| 12  | Een nieuwe Tamagotchi aanmaken                          | Must Have   |
-| 13  | Een oude Tamagotchi inladen                             | Must Have   |
-| 11  | Verschillende achtergronden                             | Should Have |
-| 14  | Het Volume kunnen aanpassen                             | Should Have |
-| 15  | Een naam aan je Tamagotchi kunnen geven                 | Should Have |
-| 16  | Een Tamagotchi kan dansen                               | Should Have |
-| 17  | Een overzicht van alle Tamagotchi die je hebt           | Should Have |
-| 18  | Het aan kunnen passen van je Tamagotchi                 | Could Have  |
-| 19  | Een Tamagotchi kan ontlasten                            | Could Have  |
-| 20  | Mini-games                                              | Could Have  |
+| 9   | Keuze uit meerdere Tamagotchi's                         | Must Have   |
+| 10  | Een nieuwe Tamagotchi aanmaken                          | Must Have   |
+| 11  | 5 verschillende keuzes aan Tamagotchi's                 | Must Have   |
+| 12  | Een oude Tamagotchi inladen                             | Must Have   |
+| 13  | 3 bars voor tevredenheid, gezondheid, voeding           | Must Have   |
+| 14  | Verschillende achtergronden                             | Should Have |
+| 15  | Het Volume kunnen aanpassen                             | Should Have |
+| 16  | Een naam aan je Tamagotchi kunnen geven                 | Should Have |
+| 17  | Een Tamagotchi kan dansen                               | Should Have |
+| 18  | Een overzicht van alle Tamagotchi die je hebt           | Should Have |
+| 19  | Het aan kunnen passen van je Tamagotchi                 | Could Have  |
+| 20  | Een Tamagotchi kan ontlasten                            | Could Have  |
+| 21  | Mini-games                                              | Could Have  |
+| 22  | Geen animaties                                          | Won't Have  |
 
 ---
 
