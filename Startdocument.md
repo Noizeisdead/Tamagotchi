@@ -31,7 +31,18 @@ User interactieve cases:
 
 | Input                                              | Verwachte resultaat                                       | Daadwerkelijke resultaat |
 | -------------------------------------------------- | --------------------------------------------------------- | ------------------------ |
-|              |               | ...                      |
+|      Gebruiker maakt een Tamagotchi aan       |     De gebruiker maakt een Tamagotchi aan     | ...                      |
+|      Gebruiker laadt een reeds bestaande Tamagotchi       |     De gebruiker laadt een reeds bestaande Tamagotchi in     | ...                      |
+|      Gebruiker past het volume aan      |      Het volume van de applicatie wordt aangepast    | ...                      |
+|      Gebruiker sluit de applicatie af        |      De applicatie wordt afgesloten      | ...                      |
+|      Gebruiker voert de Tamagotchi       |      De Tamagotchi wordt gevoerd      | ...                      |
+|    Gebruiker geeft de Tamagotchi water       | Het waterniveau van de Tamagotchi stijgt      | ...                      |
+|     Gebruiker wast de Tamagotchi      |  Het hygiene level van te Tamagotchi stijgt     | ...                      |
+|      Gebruiker ruimt de uitwerpselen van de Tamagotchi op     |    De uitwerpselen worden opgeruimd   | ...                      |
+|     Gebruiker speelt met de Tamagotchi      |    Het plezierniveau van de Tamagotchi stijgt     | ...                      |
+|    Gebruiker geeft Tamagotchi een naam       |  De Tamagotchi krijgt de gegeven naam     | ...                      |
+|       Gebruiker laat de Tamagotchi dansen    | De Tamagotchi danst      | ...                      |
+|      De gebruiker opent het Tamagotchi overzicht     |  Alle verschillende Tamagotchi's worden ingeladen     | ...                      |
 
 ## Planning
 
