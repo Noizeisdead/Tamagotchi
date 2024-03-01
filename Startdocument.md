@@ -7,7 +7,7 @@ Startdocument van **Nikita Hoogeveen**, **Robin van Dijk**, **Nick Buisman** en 
 Het idee voor threading in C# is het maken van een soortgelijke applicatie aan Tamagotchi. Tamagotchi is een soort spel waarin de gebruiker een virtueel huisdier heeft. Dit huisdier kan verzorgd worden en er kan mee worden gespeeld. Voor verdere informatie over Tamagotchi, zie de literatuurlijst (Tokyo.nl, 2023). 
 
 
-De applicatie zal ontwikkeld worden met **.NET MAUI 8.0** in **Visual Studio 2022**.
+De applicatie zal ontwikkeld worden met **.NET MAUI 8.0** (Davidbritch, 2023) in **Visual Studio 2022**.
 
 ## Lay-out
 
@@ -45,4 +45,4 @@ Dit project is begonnen op maandag 5 februari 2024 en zal eindigen op vrijdag 5 
 
 - Davidbritch. (2023, 25 juli). What is .NET MAUI? - .NET MAUI. Microsoft Learn. Geraadpleegd op 1 maart 2024, van https://learn.microsoft.com/en-us/dotnet/maui/what-is-maui?view=net-maui-8.0
 
--Tokyo.nl. (2023, 20 september). Ontdek de Tamagotchi: Japans nostalgische icon - Tokyo.nl. Geraadpleegd op 1 maart 2024, van https://tokyo.nl/japan/japanse-cultuur/tamagotchi/
+- Tokyo.nl. (2023, 20 september). Ontdek de Tamagotchi: Japans nostalgische icon - Tokyo.nl. Geraadpleegd op 1 maart 2024, van https://tokyo.nl/japan/japanse-cultuur/tamagotchi/
