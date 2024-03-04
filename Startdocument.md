@@ -31,31 +31,20 @@ Ten derde zijn er de **Could-Haves**. Deze zijn niet van belang of essentieel vo
 
 Als laatste zijn er **Won't-Haves**. Deze zoals de naam aangeeft, zullen niet worden geïmplementeerd in het product.
 
-| Nr  | De potentiele functie                                   | "???" Have  |
-| --- | ------------------------------------------------------- | ----------- |
-| 1   | Tamagotchi kan geluid maken                             | Must Have   |
-| 2   | Tamagotchi kan rond bewegen                             | Must Have   |
-| 3   | Tamagotchi kan worden gevoed                            | Must Have   |
-| 4   | Tamagotchi kan voor worden gezorgd                      | Must Have   |
-| 5   | Tamagotchi kan mee worden gespeeld                      | Must Have   |
-| 6   | Tamagotchi kan in slaap vallen                          | Must Have   |
-| 7   | Tamagotchi kan worden schoon gemaakt                    | Must Have   |
-| 8   | Tamagotchi kan dood gaan als er niet voor wordt gezorgd | Must Have   |
-| 9   | Keuze uit meerdere Tamagotchi's                         | Must Have   |
-| 10  | Een nieuwe Tamagotchi aanmaken                          | Must Have   |
-| 11  | 5 verschillende keuzes aan Tamagotchi's                 | Must Have   |
-| 12  | Een oude Tamagotchi inladen                             | Must Have   |
-| 13  | 3 bars voor tevredenheid, gezondheid, voeding           | Must Have   |
-| 14  | Verschillende achtergronden                             | Should Have |
-| 15  | Het Volume kunnen aanpassen                             | Should Have |
-| 16  | Een naam aan je Tamagotchi kunnen geven                 | Should Have |
-| 17  | Een Tamagotchi kan dansen                               | Should Have |
-| 18  | Een overzicht van alle Tamagotchi die je hebt           | Should Have |
-| 19  | Het aan kunnen passen van je Tamagotchi                 | Could Have  |
-| 20  | Een Tamagotchi kan ontlasten                            | Could Have  |
-| 21  | Mini-games                                              | Could Have  |
-| 22  | Geen animaties                                          | Won't Have  |
 
+| Must                                                                                                       | Should                                                  | Could                                                   | Won't     |
+| ---------------------------------------------------------------------------------------------------------- | ------------------------------------------------------- | ------------------------------------------------------- | --------- |
+| Aanmaken van een nieuwe Tamagotchi                                                                         | Eigen naam kiezen voor Tamagotchi                       | Mini-games                                              | Animaties |
+| Inladen van een Tamagotchi bestand                                                                         | Volume van het spel aanpassen                           | Aan kunnen passen van een Tamagotchi                    |           |
+| Evelueren van een Tamagotchi, van ei naar Tamagotchi                                                       |                                                         | Statistieken van Tamagotchi in kunnen zien in grafieken |           |
+| Tamagotchi maakt geluid                                                                                    | Tamagotchi heeft een slaapritme                         |                                                         |           |
+| Tamagotchi beweegt                                                                                         | Verschillende achtergronden voor Tamagotchi's           |                                                         |           |
+| Tamagotchi kan gevoerd worden                                                                              | Verschilldende achtergronden voor verschilldende acties |                                                         |           |
+| Tamagotchi kan spelen                                                                                      | Per actie zijn er verschillende keuzes                  |                                                         |           |
+| Tamagotchi kan verzorgd worden                                                                             |                                                         |                                                         |           |
+| Statistieken zoals voeding, gezondheid en blijheid veranderen afhankelijk van acties die worden uitgevoerd |                                                         |                                                         |           |
+| Keuzens uit 5 verschillende Tamagotchi's                                                                   |                                                         |                                                         |           |
+| Een overzicht van alle Tamagotchi die je hebt                                                              |                                                         |                                                         |           |
 ---
 
 ## Lay-out
