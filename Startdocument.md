@@ -11,8 +11,6 @@ De applicatie zal ontwikkeld worden met **.NET MAUI 8.0** (Davidbritch, 2023) in
 
 ## Lay-out
 
-
-
 ![Start scherm](img/Wireframes/StartScreen.png "Start scherm")
 Wanneer de applicatie opstart krijgt de gebruiker dit scherm te zien. Vanaf dit scherm kan de gebruiker kiezen uit 4 opties:
 
@@ -30,6 +28,27 @@ Op dit scherm zijn alle opgeslagen spellen te zien in de linker kolom. In de rec
 
 ![Opties](img/Wireframes/Options.png "Opties")
 Op het opties scherm kan het volume van de muziek, knoppen en geluidseffecten aangepast worden.
+
+![Hatching](img/Wireframes/IntroScreen.png "Hatching")
+Nadat de gebruiker een tijd het ei heeft verzorgd krijgt de gebruiker het hatching scherm te zien, dit is het moment dat de Tamagotchi uit het ei komt, hiermee moet geholpen worden door op de knop in het midden te drukken totdat de Tamagotchi is uitgebroken.
+
+![GameScreen](img/Wireframes/GameScreen.png "Game screen")
+Dit is het basis scherm van het spel, alle acties worden uitgevoerd op dit scherm.
+De achtergrond van dit scherm zal veranderen afhankelijk van de actie die wordt uitgevoerd. Ook zijn de achtergronden verschillend per Tamagotchi.
+
+Als de gebruiker op de linker knop drukt wordt de gebruiker terug gebracht naar het normale game scherm in het geval van het uitvoeren van een actie. Als er geen actie wordt uitgevoerd wanneer de gebruiker op deze knop drukt maakt de knop alleen maar een geluid.
+Wanneer de gebruiker op de middeste knop drukt is er een interactie met de Tamagotchi. De interactie is afhankelijk van de geselecteerde actie.
+Als de gebruiker de rechter knop gebruikt wordt het actie scherm geopend.
+
+![Actions](img/Wireframes/Actions.png "Actions")
+Wanneer een gebruiker op de linker knop drukt krijgt de gebruiker het Actions scherm te zien. Op dut scherm zijn alle mogelijke acties te zien zoals:
+- Feed: Het voeren van de Tamagotchi. De gebruiker wordt doorgestuurd naar een soort gelijk scherm met alle etens opties waaruit de gebruiker kan kiezen.
+- Clean: De gebruiker wordt doorgestuurd naar een soort gelijk scherm waar de gebruiker kan kiezen uit alle verzorgings opties die er zijn voor de Tamagotchi, zoals: wassen, borsterlen, ect.
+- Play: De gebruiker wordt doorgestuurd naar een soort gelijk scherm waar de gebruiker kan kiezen uit alle spel opties om met de Tamagotchi te spelen, zoals: Overgooien of rennen.
+- Options: De gebruiker wordt doorgestuurd naar het opties scherm.
+
+![Feed](img/Wireframes/Feed.png "Feed options")
+Hier zijn alle voedsel opties te zien wanneer de gebruik op FEED drukt in het actions scherm. De schermen voor CLEAN en PLAY zullen er hetzelfde uit zien maar dan voor opties voor die acties.
 
 
 ## Klassendiagram
@@ -52,7 +71,7 @@ User interactieve cases:
 | -------------------------------------------------- | --------------------------------------------------------- | ------------------------ |
 |              |               | ...                      |
 
-## Planning
+## Planning 
 
 Om de voortgang van dit project te bewaken, is er een planning gemaakt. Deze planning bevat in grote lijnen hetgeen waarmee wij ons bezig zullen houden per week tot de deadline. Er kan natuurlijk afgeweken worden van deze planning, maar het is het doel om deze in grote lijnen te volgen.
 
