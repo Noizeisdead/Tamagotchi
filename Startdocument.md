@@ -126,7 +126,7 @@ Om de voortgang van dit project te bewaken, is er een planning gemaakt. Deze pla
 
 Dit project is begonnen op maandag 5 februari 2024 en zal eindigen op vrijdag 5 april 2024.
 
-![Planning](img/planning.png "Project planning")
+![Planning](img/Planning.png "Project planning")
 
 ## Literatuurlijst
 
