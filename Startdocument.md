@@ -8,6 +8,21 @@ Het idee voor threading in C# is het maken van een soortgelijke applicatie aan T
 
 De applicatie zal ontwikkeld worden met **.NET MAUI 8.0** (Davidbritch, 2023) in **Visual Studio 2022**.
 
+Bij de start van het spel kiest de gebruiker een ei. Dit ei moet worden verzorgd door de gebruiker totdat het ei klaar is op open te gaan. Dan komt de Tamagotchi uit. De tamagotchi moet door de gebruiker verzorgd worden door verschilldende acties uit te voeren zoals, voeren, verzorgen en spelen. Deze acties zorgen ervoor dat de Tamagotchi gezond blijft.
+
+De Tamagotchi heeft een slaapritme, dit zorgt ervoor dat de tamagotchi op een bepaald moment gaat slapen en wakker wordt, ook zorgt dit ervoor dat hij honger krijgt op bepaalde momenten. 
+
+De spel data zal per spel bijgehouden worden in een XML-bestand. Daarnaast zal er ook een XML-bestand zijn voor het bij houden van algemene informatie voor de applicatie.
+
+
+---
+
+## Threading toepassingen
+In deze applicatie zal gebruik worden gemaakt van Batch processing om de verschillende status bars van de Tamagotchi voordurend te updaten ook tijdens het uitvoeren van acties. 
+Achtergrond muziek.
+Geluid van de knoppen.
+
+Mogelijk nog grafieken plotten om statistieken in te zien maar dat is een could have.
 ---
 
 ## Requirements
