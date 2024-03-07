@@ -8,21 +8,20 @@ Het idee voor threading in C# is het maken van een soortgelijke applicatie aan T
 
 De applicatie zal ontwikkeld worden met **.NET MAUI 8.0** (Davidbritch, 2023) in **Visual Studio 2022**.
 
-Bij de start van het spel kiest de gebruiker een ei. Dit ei moet worden verzorgd door de gebruiker totdat het ei klaar is op open te gaan. Dan komt de Tamagotchi uit. De tamagotchi moet door de gebruiker verzorgd worden door verschilldende acties uit te voeren zoals, voeren, verzorgen en spelen. Deze acties zorgen ervoor dat de Tamagotchi gezond blijft.
+Bij de start van het spel kiest de gebruiker een ei. Dit ei moet worden verzorgd door de gebruiker totdat het ei klaar is om open te gaan. Dan komt de Tamagotchi uit. De tamagotchi moet door de gebruiker verzorgd worden door verschilldende acties uit te voeren, zoals voeren, verzorgen en spelen. Deze acties zorgen ervoor dat de Tamagotchi gezond blijft.
 
-De Tamagotchi heeft een slaapritme, dit zorgt ervoor dat de tamagotchi op een bepaald moment gaat slapen en wakker wordt, ook zorgt dit ervoor dat hij honger krijgt op bepaalde momenten. 
+De Tamagotchi heeft een slaapritme wat ervoor zorgt dat de tamagotchi op een bepaald moment gaat slapen en wakker wordt. Ook zorgt dit slaapritme ervoor dat deze honger krijgt op bepaalde momenten. 
 
-De spel data zal per spel bijgehouden worden in een XML-bestand. Daarnaast zal er ook een XML-bestand zijn voor het bij houden van algemene informatie voor de applicatie.
+De spel data zullen per spel bijgehouden worden in een XML-bestand. Daarnaast zal er ook een XML-bestand zijn voor het bijhouden van algemene informatie voor de applicatie.
 
 
 ---
 
 ## Threading toepassingen
-In deze applicatie zal gebruik worden gemaakt van Batch processing om de verschillende status bars van de Tamagotchi voordurend te updaten ook tijdens het uitvoeren van acties. 
-Achtergrond muziek.
-Geluid van de knoppen.
+In deze applicatie zal gebruik worden gemaakt van Batch processing om de verschillende statusbalken van de Tamagotchi voordurend te updaten, ook tijdens het uitvoeren van acties. 
+Daarnaast zal threading worden toegepast voor de achtergrond muziek en het geluid van de knoppen.
 
-Mogelijk nog grafieken plotten om statistieken in te zien maar dat is een could have.
+Mogelijk wordt het ook nog toegepast voor het plotten van grafieken voor bepaalde statistieken, maar dat is een could have.
 ---
 
 ## Requirements
@@ -73,35 +72,35 @@ Wanneer de applicatie opstart krijgt de gebruiker dit scherm te zien. Vanaf dit 
 - Exit: De applicatie wordt afgesloten.
 
 ![Nieuw spel aanmaken](img/Wireframes/NewScreen.png "Nieuw spel scherm")
-Op dit scherm maakt de gebruiker een nieuw spel aan. Dat betekent dat de gebruiker een ei mag kiezen, door middel van de pijlen naast het ei kan de gebruiker alle eieren bekijken. Onder het ei staat het monster dat er in het ei zit. In de rechter kolom staat de persoonlijkheid, type en extra informatie over het monster. 
+Op dit scherm maakt de gebruiker een nieuw spel aan. Dat betekent dat de gebruiker een ei mag kiezen. Door middel van de pijlen naast het ei kan de gebruiker alle eieren bekijken. Onder het ei staat het monster dat in het ei zit. In de rechter kolom staat de persoonlijkheid, type van het monster en extra informatie hierover. 
 In het tekst veld vult de gebruiker de naam van het monster in.
 
 ![Laad spel](img/Wireframes/LoadScreen.png "Laad opgeslagen spel")
-Op dit scherm zijn alle opgeslagen spellen te zien in de linker kolom. In de rechter kolom is een input veld voor bestanden. Hier kan de gebruiker een bestand in slepen van een spel om te laden en te spelen.
+Op dit scherm zijn alle opgeslagen spellen te zien in de linker kolom. In de rechter kolom is een input veld voor bestanden. Hier kan de gebruiker een bestand in slepen van een spel om deze te laden en te spelen.
 
 ![Opties](img/Wireframes/Options.png "Opties")
 Op het opties scherm kan het volume van de muziek, knoppen en geluidseffecten aangepast worden.
 
 ![Hatching](img/Wireframes/IntroScreen.png "Hatching")
-Nadat de gebruiker een tijd het ei heeft verzorgd krijgt de gebruiker het hatching scherm te zien, dit is het moment dat de Tamagotchi uit het ei komt, hiermee moet geholpen worden door op de knop in het midden te drukken totdat de Tamagotchi is uitgebroken.
+Nadat de gebruiker een tijd het ei heeft verzorgd krijgt de gebruiker het hatching scherm te zien. Dit is het moment dat de Tamagotchi uit het ei komt. De gebruiker moet helpen bij het uitkomen van het ei door op de knop in het midden te klikken totdat het ei daadwerkelijk is uitgekomen.
 
 ![GameScreen](img/Wireframes/GameScreen.png "Game screen")
 Dit is het basis scherm van het spel, alle acties worden uitgevoerd op dit scherm.
 De achtergrond van dit scherm zal veranderen afhankelijk van de actie die wordt uitgevoerd. Ook zijn de achtergronden verschillend per Tamagotchi.
 
-Als de gebruiker op de linker knop drukt wordt de gebruiker terug gebracht naar het normale game scherm in het geval van het uitvoeren van een actie. Als er geen actie wordt uitgevoerd wanneer de gebruiker op deze knop drukt maakt de knop alleen maar een geluid.
+Als de gebruiker op de linker knop klikt, wordt de gebruiker teruggebracht naar het normale game scherm in het geval van het uitvoeren van een actie. Als er geen actie wordt uitgevoerd wanneer de gebruiker op deze knop klikt, maakt de knop alleen maar een geluid.
 Wanneer de gebruiker op de middeste knop drukt is er een interactie met de Tamagotchi. De interactie is afhankelijk van de geselecteerde actie.
-Als de gebruiker de rechter knop gebruikt wordt het actie scherm geopend.
+Als de gebruiker de rechter knop gebruikt, wordt het actie scherm geopend.
 
 ![Actions](img/Wireframes/Actions.png "Actions")
-Wanneer een gebruiker op de linker knop drukt krijgt de gebruiker het Actions scherm te zien. Op dut scherm zijn alle mogelijke acties te zien zoals:
-- Feed: Het voeren van de Tamagotchi. De gebruiker wordt doorgestuurd naar een soort gelijk scherm met alle etens opties waaruit de gebruiker kan kiezen.
-- Clean: De gebruiker wordt doorgestuurd naar een soort gelijk scherm waar de gebruiker kan kiezen uit alle verzorgings opties die er zijn voor de Tamagotchi, zoals: wassen, borsterlen, ect.
-- Play: De gebruiker wordt doorgestuurd naar een soort gelijk scherm waar de gebruiker kan kiezen uit alle spel opties om met de Tamagotchi te spelen, zoals: Overgooien of rennen.
+Wanneer een gebruiker op de linker knop klikt, krijgt de gebruiker het Actions scherm te zien. Op dit scherm zijn alle mogelijke acties te zien, zoals:
+- Feed: Het voeren van de Tamagotchi. De gebruiker wordt doorgestuurd naar een soortgelijk scherm met alle voer opties waaruit de gebruiker kan kiezen.
+- Clean: De gebruiker wordt doorgestuurd naar een soortgelijk scherm waar de gebruiker kan kiezen uit alle verzorgingsopties die er zijn voor de Tamagotchi, zoals wassen, borstelen, etc.
+- Play: De gebruiker wordt doorgestuurd naar een soortgelijk scherm waar de gebruiker kan kiezen uit alle spelopties om met de Tamagotchi te spelen, zoals overgooien of rennen.
 - Options: De gebruiker wordt doorgestuurd naar het opties scherm.
 
 ![Feed](img/Wireframes/Feed.png "Feed options")
-Hier zijn alle voedsel opties te zien wanneer de gebruik op FEED drukt in het actions scherm. De schermen voor CLEAN en PLAY zullen er hetzelfde uit zien maar dan voor opties voor die acties.
+Hier zijn alle voedsel opties te zien wanneer de gebruik op FEED drukt in het actions scherm. De schermen voor CLEAN en PLAY zullen er hetzelfde uit zien, maar dan voor opties voor die acties.
 
 
 ## Klassendiagram
