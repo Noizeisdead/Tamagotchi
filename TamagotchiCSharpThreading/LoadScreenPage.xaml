@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TamagotchiCSharpThreading.LoadScreenPage">
+
+    <Grid RowDefinitions="100, Auto, *"
+          ColumnDefinitions=".75*, .25*"
+          Padding="10">
+
+        <Label 
+            Text="Load"
+            Grid.ColumnSpan="2"
+            HorizontalOptions="Center"
+            FontSize="Large" />
+        
+        <Label 
+            Text="Save Games"
+            Grid.Row="1"
+            FontSize="Medium" />
+        
+        <Label 
+            Text="Drag file here:"
+            Grid.Row="1"
+            Grid.Column="2"
+            FontSize="Medium" />    
+
+
+    </Grid>
+
+</ContentPage>
