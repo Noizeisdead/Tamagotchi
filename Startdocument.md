@@ -22,6 +22,7 @@ In deze applicatie zal gebruik worden gemaakt van Batch processing om de verschi
 Daarnaast zal threading worden toegepast voor de achtergrond muziek en het geluid van de knoppen.
 
 Mogelijk wordt het ook nog toegepast voor het plotten van grafieken voor bepaalde statistieken, maar dat is een could have.
+
 ---
 
 ## Requirements
