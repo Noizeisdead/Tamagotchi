@@ -106,7 +106,7 @@ Hier zijn alle voedsel opties te zien wanneer de gebruik op FEED drukt in het ac
 
 ## Klassendiagram
 
-![Class Diagram](img/classdiagram.png "First Version of the class diagram")
+![Class Diagram](classDiagram/Classdiagram.jpg "First Version of the class diagram")
 
 ## Testplan
 
