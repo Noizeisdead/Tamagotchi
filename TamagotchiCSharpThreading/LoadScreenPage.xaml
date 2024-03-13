@@ -1,29 +1,42 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="TamagotchiCSharpThreading.LoadScreenPage">
+             x:Class="TamagotchiCSharpThreading.LoadScreenPage" Background="White">
 
-    <Grid RowDefinitions="100, Auto, *"
-          ColumnDefinitions=".75*, .25*"
-          Padding="10">
+    <Grid RowDefinitions="100, Auto, *" ColumnDefinitions=".25*, .25*, .25*, .25*" Padding="10">
 
-        <Label 
-            Text="Load"
-            Grid.ColumnSpan="2"
-            HorizontalOptions="Center"
-            FontSize="Large" />
-        
-        <Label 
-            Text="Save Games"
-            Grid.Row="1"
-            FontSize="Medium" />
-        
-        <Label 
-            Text="Drag file here:"
-            Grid.Row="1"
-            Grid.Column="2"
-            FontSize="Medium" />    
+        <Label Text="Load" TextColor="black" Grid.ColumnSpan="4" HorizontalOptions="Center" FontSize="Large" />
 
+        <Label Text="Save Games" TextColor="black" Grid.Row="1" Grid.Column="0" Padding="30, 0, 0, 0" FontSize="Medium" />
+
+        <StackLayout Grid.Row="2" Grid.Column="0" HeightRequest="200" VerticalOptions="Start">
+            <CollectionView ItemsLayout="VerticalGrid" SelectionMode="Single">
+                <CollectionView.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Tamagotchi 1 - [13/03/2024]</x:String>
+                        <x:String>Tamagotchi 2 - [13/03/2024]</x:String>
+                        <x:String>Tamagotchi 3 - [13/03/2024]</x:String>
+                        <x:String>Tamagotchi 4 - [13/03/2024]</x:String>
+                        <x:String>Tamagotchi 5 - [13/03/2024]</x:String>
+                    </x:Array>
+                </CollectionView.ItemsSource>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <VerticalStackLayout BackgroundColor="LightGrey" Padding="30, 10, 0, 0" Margin="5">
+                            <Label Text="{Binding .}" />
+                        </VerticalStackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </StackLayout>
+
+        <StackLayout Grid.Row="1" Grid.Column="3">
+            <Label Text="Drag file here:" TextColor="black" FontSize="Small" />
+            <Button Text="File input" WidthRequest="210" HeightRequest="50" FontSize="Small" BackgroundColor="LightGrey" />
+        </StackLayout>
+
+        <Button Text="Start" Grid.Row="2" Grid.Column="1" WidthRequest="210" HeightRequest="50" FontSize="Medium" BackgroundColor="LightGrey" />
+        <Button Text="Load" Grid.Row="2" Grid.Column="2" WidthRequest="210" HeightRequest="50" FontSize="Medium" BackgroundColor="LightGrey" />
 
     </Grid>
 
