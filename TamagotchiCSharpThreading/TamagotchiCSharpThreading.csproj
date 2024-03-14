@@ -62,4 +62,14 @@
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <Folder Include="Models\" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Compile Update="Views\ExamplePage.xaml.cs">
+	    <DependentUpon>ExamplePage.xaml</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
 </Project>

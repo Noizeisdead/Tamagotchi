@@ -1,4 +1,6 @@
-﻿namespace TamagotchiCSharpThreading
+﻿using TamagotchiCSharpThreading.Views;
+
+namespace TamagotchiCSharpThreading
 {
     public partial class App : Application
     {

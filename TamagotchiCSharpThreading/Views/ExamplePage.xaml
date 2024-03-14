@@ -1,8 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="TamagotchiCSharpThreading.MainPage">
-
+             xmlns:viewModels="clr-namespace:TamagotchiCSharpThreading.ViewModels"
+             x:Class="TamagotchiCSharpThreading.Views.ExamplePage"
+             Title="Example">
+    
+    <ContentPage.BindingContext>
+        <viewModels:ExampleViewModel />
+    </ContentPage.BindingContext>
+    
     <ScrollView>
         <VerticalStackLayout
             Padding="30,0"
@@ -25,10 +31,9 @@
                 SemanticProperties.Description="Welcome to dot net Multi platform App U I" />
 
             <Button
-                x:Name="CounterBtn"
-                Text="Click me" 
+                Text="{Binding CounterBtn}" 
                 SemanticProperties.Hint="Counts the number of times you click"
-                Clicked="OnCounterClicked"
+                Command="{Binding CounttestCommand}"
                 HorizontalOptions="Fill" />
         </VerticalStackLayout>
     </ScrollView>
