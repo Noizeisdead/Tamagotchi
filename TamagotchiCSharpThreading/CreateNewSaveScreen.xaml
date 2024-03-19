@@ -22,6 +22,23 @@
         <Label Text="New" TextColor="Black" FontSize="Header" HorizontalOptions="Center" Grid.Row="0" Grid.Column="2" />
         <Label Text="Choose an Egg:" TextColor="Black" FontSize="Large" Grid.Row="1" Grid.Column="1" />
 
+        <Grid Grid.Row="2" Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="auto" />
+                <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
+
+            <Label Text="placeholder" TextColor="Black" FontSize="Large" Grid.Row="2" />
+            <Label Text="placeholder" TextColor="Black" FontSize="Large" Grid.Row="3" />
+
+        </Grid>
+
         <Grid Grid.Row="2" Grid.Column="3">
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto" />
@@ -45,13 +62,12 @@
             <Label Text="Moody" TextColor="Black" FontSize="Small" Grid.Row="2" Grid.Column="1" Padding="10, 0, 0, 0" />
             
             <Label Text="Extra:" TextColor="Black" FontSize="Small" Grid.Row="3" Grid.Column="0" Padding="10, 0, 0, 0" />
-            <CollectionView Grid.Column="1" Grid.Row="3">
-                <CollectionView.ItemsSource>
-                    <x:Array Type="{x:Type x:String}">
-                        <x:String>hallo</x:String>
-                    </x:Array>
-                </CollectionView.ItemsSource>
-            </CollectionView>
+
+            <Label Grid.Row="3" Grid.Column="1" TextColor="Black">
+                <Label.Text>
+                    testing
+                </Label.Text>
+            </Label>
         </Grid>
 
         <Button Text="Create" FontSize="Medium" WidthRequest="150" BackgroundColor="LightGrey" TextColor="White" Grid.Row="3" Grid.Column="3" HorizontalOptions="Start" Margin="0, 30, 0, 0" />
