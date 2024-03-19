@@ -9,6 +9,6 @@
 
     <ShellContent
         Title="Main Menu"
-        ContentTemplate="{DataTemplate views:ExamplePage}" /> 
+        ContentTemplate="{DataTemplate views:MenuScreenPage}" /> 
 
 </Shell>
