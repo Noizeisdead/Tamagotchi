@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<Dates>
+    <startDate></startdate>
+    <lastPlayedDate></lastplayeddate>
+    <timePlayed></timePlayed>
+</Dates>
+<name></name>
+<type></type>
+<happiness></happiness>
+<hunger></hunger>
+<cleanliness></cleanliness>
+<status></status>
+
+<timesEaten></timesEaten>
+<timesPet></timesPet>
+<timesHungry></timesHungry>
+<timesSad></timesSad>
