@@ -63,6 +63,16 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Folder Include="Models\" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Compile Update="Views\ExamplePage.xaml.cs">
+	    <DependentUpon>ExamplePage.xaml</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
 	  <Compile Update="OptionsView.xaml.cs">
 	    <DependentUpon>OptionsView.xaml</DependentUpon>
 	  </Compile>
