@@ -9,6 +9,6 @@
 
     <ShellContent
         Title="Example Page"
-        ContentTemplate="{DataTemplate views:GameScreenPage}" /> 
+        ContentTemplate="{DataTemplate views:ExamplePage}" /> 
 
 </Shell>
