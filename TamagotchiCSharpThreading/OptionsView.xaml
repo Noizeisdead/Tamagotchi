@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TamagotchiCSharpThreading.OptionsView"
+             Title="Options">
+
+
+    <StackLayout>
+        <Grid RowDefinitions="*, *, *, *"
+              ColumnDefinitions="*, *, *"
+              RowSpacing="1"
+              ColumnSpacing="1">
+        <Grid Grid.Row="1" ColumnDefinitions="*, *"
+              RowSpacing="1"
+              ColumnSpacing="1">
+            <Label Grid.Row="0" Grid.Column="0" x:Name="masterVolume"
+               Text="Master volume"
+               FontSize="20"
+               HorizontalOptions="Center"
+               VerticalOptions="Center" />
+            <Slider Grid.Row="0" Grid.Column="1"  Minimum="0" Maximum="100" 
+                ValueChanged="OnSliderValueChanged" />
+        </Grid>
+
+            <Grid Grid.Row="2" ColumnDefinitions="*, *"
+              RowSpacing="1"
+              ColumnSpacing="1">
+            <Label Grid.Row="0" Grid.Column="0" x:Name="buttonVolume"
+       Text="Button volume"
+       FontSize="20"
+       HorizontalOptions="Center"
+       VerticalOptions="Center" />
+            <Slider  Grid.Row="0"  Grid.Column="1" Minimum="0" Maximum="100"
+        ValueChanged="OnSliderValueChanged" />
+        </Grid>
+
+        <Grid Grid.Row="3" Grid.Column="0" ColumnDefinitions="*, *"
+         RowSpacing="1"
+         ColumnSpacing="1">
+            <Label Grid.Column="0" x:Name="effectsVolume"
+               Text="Effects volume"
+               FontSize="20"
+               HorizontalOptions="Center"
+               VerticalOptions="Center" />
+            <Slider Grid.Column="1" Minimum="0" Maximum="100"
+                ValueChanged="OnSliderValueChanged" />
+        </Grid>
+        </Grid>
+    </StackLayout>
+    
+</ContentPage>  
