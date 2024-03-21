@@ -1,4 +1,4 @@
-﻿using TamagotchiCSharpThreading.Views;
+﻿using TamagotchiCSharpThreading.Screens;
 
 namespace TamagotchiCSharpThreading
 {

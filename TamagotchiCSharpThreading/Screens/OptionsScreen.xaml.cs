@@ -1,6 +1,6 @@
-﻿namespace TamagotchiCSharpThreading.Views
+﻿namespace TamagotchiCSharpThreading.Screens
 {
-    public partial class OptionsViewScreenPage : ContentPage
+    public partial class OptionsScreen : ContentPage
     {
 
         // The value we want the slider to increment each time it updates
@@ -9,7 +9,7 @@
         // The value for the slider we will be using.
         double sliderCorrectValue;
 
-        public OptionsViewScreenPage()
+        public OptionsScreen()
         {
             InitializeComponent();
         }
@@ -34,20 +34,18 @@
             }
             else
             {
-                if (((relativeValue) % sliderIncrement) < 2)
+                if ((relativeValue % sliderIncrement) < 2)
                 {
-                    sliderCorrectValue = relativeValue + ((relativeValue) % sliderIncrement);
+                    sliderCorrectValue = relativeValue + (relativeValue % sliderIncrement);
                 }
                 else
                 {
-                    sliderCorrectValue = relativeValue - ((relativeValue) % sliderIncrement);
+                    sliderCorrectValue = relativeValue - (relativeValue % sliderIncrement);
                 }
 
                 slider.Value = sliderCorrectValue;
                 //displayLabelMasterVolume.Text = sliderCorrectValue.ToString();
             }
-
-
 
             //double value = args.NewValue;
             //displayLabel.Text = String.Format("The Slider value is {0}", value);
