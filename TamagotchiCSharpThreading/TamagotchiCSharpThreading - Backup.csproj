@@ -63,34 +63,17 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Compile Update="Screens\ActionScreen.xaml.cs">
-	    <DependentUpon>ActionScreen.xaml</DependentUpon>
-	  </Compile>
-	  <Compile Update="Screens\CreateNewSaveScreen.xaml.cs">
-	    <DependentUpon>CreateNewSaveScreen.xaml</DependentUpon>
-	  </Compile>
-	  <Compile Update="Screens\GameScreen.xaml.cs">
-	    <DependentUpon>GameScreen.xaml</DependentUpon>
-	  </Compile>
-	  <Compile Update="Screens\LoadScreen.xaml.cs">
-	    <DependentUpon>LoadScreen.xaml</DependentUpon>
-	  </Compile>
-	  <Compile Update="Screens\MenuScreen.xaml.cs">
-	    <DependentUpon>MenuScreen.xaml</DependentUpon>
-	  </Compile>
-	  <Compile Update="Screens\OptionsScreen.xaml.cs">
-	    <DependentUpon>OptionsScreen.xaml</DependentUpon>
+	  <Folder Include="Models\" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Compile Update="Views\ExamplePage.xaml.cs">
+	    <DependentUpon>ExamplePage.xaml</DependentUpon>
 	  </Compile>
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiXaml Update="Screens\CreateNewSaveScreen.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="Screens\GameScreen.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="Screens\OptionsScreen.xaml">
+	  <MauiXaml Update="Views\MenuScreenPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>
