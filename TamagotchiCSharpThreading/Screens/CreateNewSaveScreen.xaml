@@ -47,15 +47,9 @@
                 <ColumnDefinition Width="Auto" />
             </Grid.ColumnDefinitions>
 
-            <Label Text="placeholder"
-                   TextColor="Black"
-                   FontSize="Large"
-                   Grid.Row="2" />
-
-            <Label Text="placeholder"
-                   TextColor="Black"
-                   FontSize="Large"
-                   Grid.Row="3" />
+            <Image Source="firstegg.png" Grid.Row="2" MaximumHeightRequest="200"/>
+            <Image Source="egg.png" Grid.Row="3" MaximumHeightRequest="200"/>
+            
 
         </Grid>
 
@@ -132,6 +126,7 @@
         </Grid>
 
         <Button Text="Create"
+                Clicked="createTamagotchi"
                 FontSize="Medium"
                 WidthRequest="150"
                 BackgroundColor="LightGrey"

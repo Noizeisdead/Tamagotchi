@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root>
+  <Tamagotchi>
+    <Name />
+    <food>15</food>
+    <sleep>15</sleep>
+    <attention>15</attention>
+    <dead>false</dead>
+    <id>1</id>
+    <type>normal</type>
+  </Tamagotchi>
+  <data>
+    <StartDate>2024-03-28T10:24:38.0507914+01:00</StartDate>
+    <LastPlayed />
+    <TimePlayed />
+  </data>
+</Root>
