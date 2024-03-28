@@ -6,5 +6,9 @@
         {
             InitializeComponent();
         }
+        async void OptionsButtonPress(object sender, EventArgs args)
+        {
+            await Navigation.PushAsync(new OptionsScreen());
+        }
     }
 }

@@ -62,6 +62,7 @@
         </StackLayout>
 
         <Button Text="Start"
+                Clicked="StartGame"
                 Grid.Row="2"
                 Grid.Column="1"
                 WidthRequest="210"
@@ -75,7 +76,8 @@
                 WidthRequest="210"
                 HeightRequest="50"
                 FontSize="Medium"
-                BackgroundColor="LightGrey" />
+                BackgroundColor="LightGrey"
+                Clicked="LoadGame"/>
 
     </Grid>
 

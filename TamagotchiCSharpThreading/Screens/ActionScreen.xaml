@@ -27,6 +27,7 @@
                Grid.Column="1" />
 
         <Button Text="Eat"
+                
                 WidthRequest="210"
                 HeightRequest="50"
                 FontSize="Small"
@@ -51,6 +52,7 @@
                 Grid.Column="1" />
 
         <Button Text="Options"
+                Clicked="OptionsButtonPress"
                 WidthRequest="210"
                 HeightRequest="50"
                 FontSize="Small"
