@@ -26,8 +26,8 @@
                Grid.Row="0"
                Grid.Column="1" />
 
-        <Button Text="Eat"
-                
+        <Button Text="Feed"
+                Clicked="FeedButtonPress"
                 WidthRequest="210"
                 HeightRequest="50"
                 FontSize="Small"
@@ -35,7 +35,8 @@
                 Grid.Row="1"
                 Grid.Column="1" />
 
-        <Button Text="Feed"
+        <Button Text="Sleep"
+                Clicked="SleepButtonPress"
                 WidthRequest="210"
                 HeightRequest="50"
                 FontSize="Small"

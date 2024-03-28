@@ -11,6 +11,7 @@ namespace TamagotchiCSharpThreading.Screens
 {
     public partial class CreateNewSaveScreen : ContentPage
     {
+
         public CreateNewSaveScreen()
         {
             InitializeComponent();
@@ -18,7 +19,7 @@ namespace TamagotchiCSharpThreading.Screens
         async void createTamagotchi(object sender, EventArgs args)
         {
             createTamagotchiFile(sender, args);
-            new Tamagotchi(entry.Text, "FIRE");
+            App.SessionData = new Tamagotchi(entry.Text, "FIRE");
             await Navigation.PushAsync(new GameScreen());
         }
 
@@ -30,6 +31,7 @@ namespace TamagotchiCSharpThreading.Screens
             XElement root = new XElement("Root",
                 new XElement("Tamagotchi",
                     new XElement("Name", nameInput),
+                    new XElement("Age", 0),
                     new XElement("food", 15),
                     new XElement("sleep", 15),
                     new XElement("attention", 15),
@@ -44,8 +46,15 @@ namespace TamagotchiCSharpThreading.Screens
                 )
             );
 
+            string baseDirectory = AppDomain.CurrentDomain.BaseDirectory;
+
+            string projectRootDirectory = Directory.GetParent(baseDirectory).Parent.Parent.Parent.Parent.Parent.FullName;
+
+            // Navigate to the desired directory from the base directory
+            string directoryPath = Path.Combine(projectRootDirectory, "Resources", "Files");
+
             // Save XML to file
-            string filePath = Path.Combine("C:\\Users\\Noize\\OneDrive\\Documenten\\Tamagotchi\\TamagotchiCSharpThreading\\Resources\\Files\\" + "data.xml") ;
+            string filePath = Path.Combine(directoryPath + "\\data.xml") ;
             root.Save(filePath);
 
             Debug.WriteLine("xml file generated");
@@ -53,16 +62,25 @@ namespace TamagotchiCSharpThreading.Screens
         }
         void updateTamagotchi()
         {
+
+            string baseDirectory = AppDomain.CurrentDomain.BaseDirectory;
+
+            string projectRootDirectory = Directory.GetParent(baseDirectory).Parent.Parent.Parent.Parent.Parent.FullName;
+
+            // Navigate to the desired directory from the base directory
+            string directoryPath = Path.Combine(projectRootDirectory, "Resources", "Files");
+
             // Load the XML file
-            XDocument doc = XDocument.Load(Path.Combine("C:\\Users\\Noize\\OneDrive\\Documenten\\Tamagotchi\\TamagotchiCSharpThreading\\Resources\\Files\\" + "data.xml"));
+            XDocument doc = XDocument.Load(Path.Combine(directoryPath + "\\data.xml"));
 
             // Find the element to update (for example, a specific person element)
-            XElement person = (XElement)doc.Descendants("Tamagotchi");
+            XElement tomogatchi = (XElement)doc.Descendants("Tamagotchi");
 
-            if (person != null)
+            if (tomogatchi != null)
             {
+
                 // Update the element (for example, update the age)
-                person.Element("Age").Value = "31";
+                tomogatchi.Element("Age").Value = "31";
 
                 // Save the changes to the XML file
                 doc.Save("data.xml");

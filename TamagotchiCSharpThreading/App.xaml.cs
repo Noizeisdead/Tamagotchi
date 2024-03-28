@@ -4,6 +4,8 @@ namespace TamagotchiCSharpThreading
 {
     public partial class App : Application
     {
+        public static Tamagotchi? SessionData { get; set; }
+
         public App()
         {
             InitializeComponent();

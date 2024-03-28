@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Root>
   <Tamagotchi>
-    <Name />
+    <Name>test</Name>
+    <Age>0</Age>
     <food>15</food>
     <sleep>15</sleep>
     <attention>15</attention>
@@ -10,7 +11,7 @@
     <type>normal</type>
   </Tamagotchi>
   <data>
-    <StartDate>2024-03-28T10:24:38.0507914+01:00</StartDate>
+    <StartDate>2024-03-28T15:20:45.2161105+01:00</StartDate>
     <LastPlayed />
     <TimePlayed />
   </data>

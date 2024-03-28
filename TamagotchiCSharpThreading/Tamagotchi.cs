@@ -12,6 +12,7 @@ namespace TamagotchiCSharpThreading
         private string FilePath;
         private int Food;
         private int Sleep;
+        private int Age;
 
         public Tamagotchi(string name, string type)
         {
@@ -20,6 +21,7 @@ namespace TamagotchiCSharpThreading
             Attention = 15;
             Food = 15;
             Sleep = 15;
+            Age = 0;
             Dead = false;
             FilePath = "filePath";
         }
@@ -68,10 +70,22 @@ namespace TamagotchiCSharpThreading
             }
         }
 
+        public int GetAge()
+        {
+            return Age;
+        }
+
+        public void SetAge(int num)
+        {
+            Age += num;
+        }
+
         public bool GetIsDead()
         {
             return Dead;
         }
+
+
 
        /* public static List<Pet> GetAll()
         {
