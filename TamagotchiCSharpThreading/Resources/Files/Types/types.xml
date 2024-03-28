@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Types>
+	<Type>
+		<name>normal</name>
+		<sprite>
+			<first></first>
+			<second></second>
+		</sprite>
+		<backgrounds>
+			<first></first>
+			<second></second>
+			<thrird></thrird>
+		</backgrounds>
+	</Type>
+</Types>
